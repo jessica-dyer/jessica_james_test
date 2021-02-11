@@ -9,4 +9,4 @@
 ## your task: Please make some changes to this document by adding some text 
 ## to this document, saving it, and pushing your changes to the repo. 
 
-## I was able to commit and push, Yah!
+## I was able to commit but not to push error message on URL
