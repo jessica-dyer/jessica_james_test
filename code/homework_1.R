@@ -28,12 +28,14 @@ swirl()
 # 1. If I execute the expression x <- 4 in R, what is the class of the object `x' 
 # as determined by the `class()' function? 
 
-#numeric
+# numeric
 
 # 2. If I have two vectors x <- c(1,3, 5) and y <- c(3, 2, 10). Use 'cbind' to 
 # combine these vectors.
+x <- c(1,3, 5) 
+y <- c(3, 2, 10)
+question_2 <- cbind(x,y)
 
-## cbind(x,y) hit enter
 #    x  y
 #[1,] 1  3
 #[2,] 3  2
@@ -41,9 +43,11 @@ swirl()
 
 # 3. Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does 
 # x[[2]] give me?
+
+x <- list(2, "a", "b", TRUE)
+x[[2]]
+
 ## "a"
-# [[2]]
-# [1] "a"
 
 # 4. Suppose I have a vector x <- c(3, 5, 1, 10, 12, 6) and I want to set all 
 # elements of this vector that are less than 6 to be equal to zero. What R code achieves this? 
