@@ -27,11 +27,13 @@ swirl()
 
 # 1. If I execute the expression x <- 4 in R, what is the class of the object `x' 
 # as determined by the `class()' function? 
-
+x <- 4
+class(x)
 # numeric
 
 # 2. If I have two vectors x <- c(1,3, 5) and y <- c(3, 2, 10). Use 'cbind' to 
 # combine these vectors.
+
 x <- c(1,3, 5) 
 y <- c(3, 2, 10)
 question_2 <- cbind(x,y)
